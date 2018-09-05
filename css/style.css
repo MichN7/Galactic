@@ -69,7 +69,15 @@ body {
   display: inline-block;
   background-image: linear-gradient(to right, #6db6d9, #3a9ccb);
   -webkit-background-clip: text;
-  color: transparent; }
+  color: transparent;
+  letter-spacing: 2px;
+  transition: all .2s; }
+
+.u-center-text {
+  text-align: center; }
+
+.u-margin-bottom-8 {
+  margin-bottom: 8rem; }
 
 .section-about {
   background-color: #f7f7f7;
@@ -120,11 +128,10 @@ body {
   animation-fill-mode: backwards; }
 
 .header {
-  height: 95vh;
+  height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(109, 182, 217, 0.808), rgba(24, 74, 99, 0.808)), url(../img/look.jpg);
   background-size: cover;
   background-position: center;
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   position: relative; }
   .header__logo-box {
     position: absolute;
@@ -141,7 +148,6 @@ body {
 
 .row {
   max-width: 114rem;
-  background-color: #eee;
   margin: 0 auto;
   margin-bottom: 8rem; }
   .row:not(:last-child) {
